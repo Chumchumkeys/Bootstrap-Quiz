@@ -1,0 +1,63 @@
+.lead {
+  font-weight: bold !important ;
+}
+.quiz {
+  background: rgb(2, 0, 36) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 48%,
+    rgba(9, 166, 198, 1) 100%
+  ) !important;
+}
+.text-ceter input:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 48%,
+    rgba(9, 166, 198, 1) 100%
+  ) !important;
+  outline: none !important;
+  color: white !important;
+  border: none !important;
+}
+.container.one,
+.container.one span {
+  color: red !important;
+}
+.second-paragraph {
+  font-size: 25px;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 48%,
+    rgba(9, 166, 198, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 80% !important;
+  }
+  .quiz {
+    padding: 20px !important;
+  }
+  .lead {
+    font-weight: bold !important ;
+    font-size: 16px !important;
+  }
+  .container h2 {
+    margin: 20px 10px !important;
+  }
+  .quiz-form .my-5 {
+    margin-top: 20px !important;
+    margin-left: 15px;
+  }
+  .text-ceter input {
+    margin-left: 15px;
+  }
+}
